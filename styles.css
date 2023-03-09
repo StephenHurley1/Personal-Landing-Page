@@ -1,10 +1,14 @@
-body{
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
     text-align: center;
     background-color: rgb(59, 59, 59);
     color: rgb(255, 255, 255);
 }
 
-.profile_top .profile_picture{
+.profile_top .profile_picture {
     width: 150px;
     margin-top: 15px;
 }
@@ -14,7 +18,7 @@ button > span {
   vertical-align: middle;
 }
 
-.button{
+.button {
     background-color: rgb(34, 34, 34);
     border: none;
     color: rgb(255, 255, 255);
@@ -37,7 +41,10 @@ button > span {
     .button {
      width: 20%;
     }
-  }
+}
 
-
-
+.button:hover{
+    background-color: rgb(126, 183, 226);
+    color: rgb(0, 0, 0);
+    border-color: gold;   
+}
