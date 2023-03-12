@@ -38,9 +38,27 @@ button > span {
     padding-right: 5px;
 }
 
+@media (min-width: 600px) {
+    .button {
+     width: 40%;
+    }
+}
+
+@media (min-width: 800px) {
+    .button {
+     width: 35%;
+    }
+}
+
 @media (min-width: 1000px) {
     .button {
      width: 20%;
+    }
+}
+
+@media (min-width: 1300px) {
+    .button {
+     width: 15%;
     }
 }
 
